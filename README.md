@@ -1,3 +1,5 @@
+# first write 'npx json-server --watch data/db.json --port 8000' then in another terminal write'npm run start' and enjoy
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
