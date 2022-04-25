@@ -2,12 +2,21 @@ import { useState } from "react";
 import { useHistory } from "react-router-dom";
 
 
+
+
+
+
 const Create = () => {
     const [title, settitle]= useState();
     const [body, setbody]= useState();
     const [author, setauthor]= useState('mario');
     const [ispending, setpending] = useState(false)
     const previouspage = useHistory();
+
+   
+
+
+
     
     const handlesub =(e) =>{
       e.preventDefault();  
@@ -25,6 +34,7 @@ const Create = () => {
         })
     }
     return (  
+        
         <div className="create"> 
             <h2>Add a new blog</h2>
             <form onSubmit={handlesub}>
